@@ -1,0 +1,12 @@
+import React from 'react';
+import './Footer.css'; // Import your CSS file for styling
+
+const Footer = () => {
+    return (
+        <div className="footer">
+            <p> ©️2023 Made with love By <a href='https://github.com/Somu878'>Somu😀 </a>. All rights reserved.</p>
+        </div>
+    );
+}
+
+export default Footer;

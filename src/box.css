@@ -1,4 +1,12 @@
 .box {
+  float: inline-start;
+  
+
+  height: 100vh;
+  margin: 0;
+}
+.box {
+  position: relative;
     background-color: #f0f0f0;
     padding: 50px;
     border: 1px solid #170f03;
@@ -8,6 +16,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100px;
     height: 100px;
+   
 }
 .box:hover{
     background-color: #b77c23;
