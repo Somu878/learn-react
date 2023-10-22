@@ -1,12 +1,17 @@
 import React from 'react'
-import Header from './header'
-import Footer from './footer';
+
+
+import Box from './box';
+
+
 function App() {
   return (
-<div> <Header />
-<Footer /></div>
-    
-
+<div> 
+< Box title={'Shoes'} price={20}/>
+< Box title={'Mobiles'} price={500} />
+< Box title={'Clothes'} price={10} />
+<Box/>
+</div>
   );
 }
 

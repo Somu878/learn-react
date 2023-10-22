@@ -1,0 +1,27 @@
+.box {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border: 1px solid #170f03;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+}
+.box:hover{
+    background-color: #b77c23;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+    
+}
+  .box h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .box p {
+    font-size: 16px;
+    color: #333;
+  }
+  

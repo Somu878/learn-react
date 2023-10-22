@@ -5,7 +5,8 @@ export default function header() {
     <>
     <div className='test' style={{color:'red',fontSize:'50px'}} >Hello all, This is a header!
         rendered from react Components    </div>
-        {(110 == 10)? 'true' : 'false'}
+        
+
         </>
   )
 }
