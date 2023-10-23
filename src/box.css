@@ -1,26 +1,25 @@
-.box {
-  float: inline-start;
-  
 
+.box {
   height: 100vh;
   margin: 0;
+  float: inline-start;
 }
 .box {
   position: relative;
     background-color: #f0f0f0;
-    padding: 50px;
     border: 1px solid #170f03;
+    padding: 20px;
     border-radius: 5px;
     margin: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
    
 }
 .box:hover{
     background-color: #b77c23;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
     transform: scale(1.1);
     
 }
@@ -32,5 +31,13 @@
   .box p {
     font-size: 16px;
     color: #333;
+    font-weight: 500;
   }
-  
+  .box button{
+    margin: 0;
+    padding: 0;
+
+    background-color: #170f03;
+    color: #f0f0f0;
+    border-radius: 5px;
+  }
