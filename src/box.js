@@ -11,7 +11,7 @@ function Box(props){ //propTypes
 }
 Box.propTypes={ //default props
     title: PropTypes.string,
-    price: PropTypes.number.isRequired} //required props
+    price: PropTypes.number} // ".isRequired" required props
 Box.defaultProps ={
     title:'Product',
 }
