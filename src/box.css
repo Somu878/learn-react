@@ -36,6 +36,7 @@
   .box button{
     margin: 0;
     padding: 0;
+    width: 100%;
 
     background-color: #170f03;
     color: #f0f0f0;

@@ -14,7 +14,7 @@ function App() {
     <div>
       {
         productList.map((item)=>{
-          return <Classcomponents title={item.title}/>
+          return <Classcomponents title={item.title} price={item.price} stock={item.stock}/>
         })
       }
       <Footer />
