@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Foot";
-// import Box from "./box";   
-import Forms from "./forms/forms";
+import Counter2 from "./Hoc Counters/Counter2";
+import Counter from "./Hoc Counters/counter";
 function App() {
   // let productList = [
   //   { id: 1929, title: "Awesome Widget", price: 9.99 ,stock:28},
@@ -11,7 +11,10 @@ function App() {
   // ];
   return (
     <div>
-      <Forms/>
+      <Counter/>
+      <br/>
+      <br/>\
+      <Counter2/>
       <Footer />
     </div>
   );
